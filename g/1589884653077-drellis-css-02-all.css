@@ -1,0 +1,208 @@
+* {
+  box-sizing: border-box; }
+
+a, a:hover, a:focus, a:visited {
+  color: #2b7bb9;
+  text-decoration: underline; }
+
+body {
+  background-color: #fcfcff;
+  color: rgb(41, 47, 51);
+  font-family: Arial;
+  font-size: 14px;
+  line-height: 1.644; }
+
+p {
+  margin: 0; }
+p + p,
+ul + p {
+  margin-top: 14px; }
+
+img {
+  display: block;
+  height: auto;
+  max-width: 100%; }
+
+ul, li {
+  margin: 0; }
+ul {
+  padding-left: 30px; }
+ul + li,
+ul + ul,
+p + ul {
+  margin-top: 14px; }
+li + li {
+  margin-top: 5px; }
+
+.blurb {
+  color: #fff;
+  font-size: 16px;
+  position: absolute;
+  top: 40px;
+  left: 66%;
+  width: 33%; }
+.blurb h2 {
+  font-size: 38px;
+  font-weight: bold;
+  line-height: 1.1;
+  margin: 8px 0 11.5px 0; }
+.blurb p {
+  margin-bottom: 20px;
+  padding: 0 15px 0 0; }
+
+.brandlabel {
+  background-image: url(drellis-img-brandlabel.png);
+  height: 52px;
+  padding-right: 14px;
+  text-align: right; }
+
+.brandnav {
+  background-color: #00B14C;
+  color: #fff;
+  display: inline-block;
+  padding: 14px;
+  position: relative;
+  text-align: left;
+  z-index: 100; }
+.brandnav:hover,
+div.brandnav {
+  color: #fff;
+  border-bottom: solid 1px #fff; }
+.brandnav.more::after {
+  content: " ↓"; }
+a.brandnav {
+  color: #fff;
+  text-decoration: none; }
+
+.button {
+  background-color: #00B14C;
+  border: solid 1px transparent;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: normal;
+  margin-bottom: 0;
+  min-width: 148px;
+  padding: 8px 0;
+  text-align: center;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease-out;
+  vertical-align: middle;
+  white-space: nowrap; }
+a.button {
+  color: #fff;
+  text-decoration: none; }
+
+.content {
+  box-sizing: border-box;
+  display: block;
+  float: left;
+  line-height: 1.4;
+  padding: 15px 15px 0 15px;
+  position: relative;
+  width: 66%; }
+
+.contentro {
+  color: rgb(41, 47, 51);
+  border-bottom: solid rgb(41, 47, 51) 3px;
+  height: 52px;
+  padding: 14px; }
+
+.dropdown {
+  display: inline-block;
+  overflow: visible;
+  position: relative;
+  z-index: 100; }
+.dropdown .more ~ a {
+  display: none; }  
+.dropdown .more.show ~ a {
+  display: inline-block;
+  position: absolute;
+  left: 0; }
+
+.inseam {
+  background-color: #fff;
+  -webkit-box-shadow: 0 9px 0px 0px #fff, 0 -9px 0px 0px #fff, 5px 0 15px -4px rgba(0, 0, 0, 0.10), -5px 0 15px -4px rgba(0, 0, 0, 0.10);
+  -moz-box-shadow: 0 9px 0px 0px #fff, 0 -9px 0px 0px #fff, 5px 0 15px -4px rgba(0, 0, 0, 0.10), -5px 0 15px -4px rgba(0, 0, 0, 0.10);
+  box-shadow: 0 9px 0px 0px #fff, 0 -9px 0px 0px #fff, 5px 0 15px -4px rgba(0, 0, 0, 0.10), -5px 0 15px -4px rgba(0, 0, 0, 0.10);
+  min-height: 300px;
+  padding: 20px; }
+
+.footer {
+  background-color: rgb(41, 47, 51);
+  color: #fff;
+  font-size: 10px;
+  padding: 14px;
+  text-align: right; }
+
+.hilite {
+  color: #fff;
+  display: inline-block;
+  font-weight: bold;
+  padding: .2em .4em;
+  margin: 0;
+  font-size: 85%;
+  background-color: rgb(41, 47, 51); }
+br + .hilite {
+  margin-top: 3px; }
+.hilite + p {
+  margin-top: 14px; }
+
+.newsalert,
+.publication {
+  background-color: #00B14C;
+  color: #fff;
+  display: block;
+  height: 52px;;
+  padding: 14px; }
+.publication {
+  background-color: rgb(41, 47, 51);
+  color: #fff; }
+.newsalert + .newsalert,
+.publication + .publication {
+  margin-top: 5px; }
+a.newsalert,
+a.publication {
+  text-decoration: none;
+  color: #fff; }
+
+
+.page {
+  padding: 0 15px;
+  margin: 0 auto;
+  width: 1010px; }
+
+.readmore {
+  position: relative; }
+
+.storefront {
+  margin-top: 15px;
+  padding: 0;
+  position: relative; }
+.storefront::after{
+  content: "";
+  display: block; 
+  clear: both; }
+.storefront + .storefront {
+  margin-top: 15px; }
+
+.storewindow {
+  box-sizing: border-box;
+  display: block;
+  float: left;
+  line-height: 1.4;
+  padding: 15px 15px 0 15px;
+  position: relative;
+  width: 33%; }
+.storewindow img {
+  display: block;
+  height: auto;
+  margin-bottom: 5px;
+  width: 440px; }
+.storewindow br + span {
+  margin-top: 3px; }
+.storewindow .title {
+  display: inline-block; }
+
+
