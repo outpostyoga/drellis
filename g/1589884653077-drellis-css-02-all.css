@@ -137,13 +137,13 @@ a.button {
   text-align: right; }
 
 .hilite {
-  color: rgb(41, 47, 51);
+  color: #fff;
   display: inline-block;
   font-weight: bold;
   padding: .2em .4em;
   margin: 0;
   font-size: 85%;
-  background-color: #fff; }
+  background-color: #00B14C; }
 br + .hilite {
   margin-top: 3px; }
 .hilite + p {
